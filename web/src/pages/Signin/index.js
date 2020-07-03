@@ -1,14 +1,15 @@
 import React from 'react';
+import logo from '../../assets/logo3x.svg';
 
-import { Container } from './styles';
+import { mainContainer } from './styles';
 
 function Signin() {
     return (
-        <Container>
-            <div className="fundo">
-                <h1>Be the hero</h1>
+        <mainContainer>
+            <div className="formulary">
+                <img src={logo} alt='logo Be The Hero'/>
             </div>
-        </Container>
+        </mainContainer>
     );
 }
 
