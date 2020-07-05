@@ -1,13 +1,14 @@
 import React from 'react';
+import Routes from './routes';
 
-import Signin from './pages/Signin';
 import GlobalStyle from './styles/global';
+
 
 function App() {
     return (
         <React.Fragment>
             <GlobalStyle grayColor />
-            <Signin />
+            <Routes />
         </React.Fragment>
     )};
 

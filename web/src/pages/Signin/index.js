@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import logo from '../../assets/logo3x.png';
 import people from '../../assets/heroes.png';
-import icon from '../../assets/icon.png'
+import icon from '../../assets/icon.png';
+
+import { Link } from 'react-router-dom';
 
 import { Container, ImgContainer } from './styles';
 
@@ -18,7 +20,7 @@ class Signin extends Component {
                         <input className='inputStyle' type='text' placeholder='Sua ID'/>
                         <button type='submit' className='redButton'>Entrar</button>
                     </form>
-                    <a className='regirsterLink'><img className='icon' src={icon}/> Não tenho cadastro</a>
+                    <Link to='/register' className='regirsterLink'><img className='icon' alt='icone' src={icon}/> Não tenho cadastro</Link>
                 </div>
                 <ImgContainer>
                     <div>
