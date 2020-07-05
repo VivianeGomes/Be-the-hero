@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../../assets/logo3x.png';
 import people from '../../assets/heroes.png';
+import icon from '../../assets/icon.png'
 
 import { Container, ImgContainer } from './styles';
 
@@ -17,7 +18,7 @@ class Signin extends Component {
                         <input className='inputStyle' type='text' placeholder='Sua ID'/>
                         <button type='submit' className='redButton'>Entrar</button>
                     </form>
-                    <a><small className='arrow'>→]</small> Não tenho cadastro</a>
+                    <a className='regirsterLink'><img className='icon' src={icon}/> Não tenho cadastro</a>
                 </div>
                 <ImgContainer>
                     <div>

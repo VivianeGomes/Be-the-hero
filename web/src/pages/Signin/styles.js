@@ -22,7 +22,6 @@ export const Container = styled.div`
         margin-bottom: 50px;
         margin-top: 50px;
         .title {
-            font-family: 'Roboto', sans-serif;
             margin-bottom: 25px;
         }
     }
@@ -56,10 +55,25 @@ export const Container = styled.div`
         color: white;
     }
 
-    .arrow {
-        color: #E02142;
-        font-weight: bolder;
+    .regirsterLink {
+        margin-top: 30px;
+        color:#4D4E53;
+        cursor: pointer;
+        font-weight: bold;
+        font-size:14px;
+        :hover {
+            color: #232426;
+        }
     }
+
+    .icon {
+        color: #E02142;
+        max-width:20px;
+        max-height:11.5px;
+        width: auto;
+        height: auto;        
+    }
+
 `;
 
 export const ImgContainer = styled.div`
