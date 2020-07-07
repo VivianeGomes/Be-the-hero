@@ -13,7 +13,7 @@ class Register extends Component {
                     <p className='catchphrase'>Faça seu cadastro, entre na plataforma e ajude pessoas a encontrar os casos da sua ONG.</p>
                     <Link to='/' className='homeLink'><small className='leftArrow'>🡐</small> Já possuo cadastro</Link>
                 </div>
-                <div>
+                <div className='hidden'>
                     <form className='formularyContainer'>
                         <input className='inputStyle' type='text' placeholder='Nome da ONG'/>
                         <input className='inputStyle' type='email' placeholder='E-mail'/>

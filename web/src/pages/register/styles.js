@@ -1,20 +1,31 @@
 import styled from "styled-components";
+import { Device } from '../../styles/device';
+
 
 export const Container = styled.div`
-    height: 450px;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 150px;
     margin-left: 18%;
-    width: 60%;
+    width: 90%;
+    max-width: 1168px;
     box-shadow: 0px 0px 50px #BEBEBE;
     border-radius: 4px;
+
+    
 
     .containerItems {
         display: flex;
         padding-right: 80px;
         padding-left: 80px;
+
+        
+        /* flex-wrap:wrap;
+        flex-direction: row;
+        max-width: 150px;
+        margin: 0 auto; */
     }
 
     .logoContainer {
@@ -102,4 +113,10 @@ export const Container = styled.div`
             background: #AD1A33;
         }
     }
+
+    @media (max-width:980px) { 
+      display: flex;
+      flex-direction: column ;
+    }
+
 `
