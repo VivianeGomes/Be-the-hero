@@ -1,14 +1,14 @@
 import React from 'react';
 import Routes from './routes';
 
-import Device from './styles/device';
+// import Device from './styles/device';
 import GlobalStyle from './styles/global';
 
 
 function App() {
     return (
         <React.Fragment>
-            <Device />
+
             <GlobalStyle grayColor />
             <Routes />
         </React.Fragment>
